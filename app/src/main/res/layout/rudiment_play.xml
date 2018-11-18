@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="#FFEEEEEE"
+        android:layout_marginRight="2dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/start"
+            android:background="@drawable/button2"
+            android:onClick="button"
+            android:id="@+id/start"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/corner">
+
+                <SeekBar
+                    android:layout_height="100dp"
+                    android:layout_width="560dp"
+                    android:thumb="@drawable/bar"
+                    android:progressDrawable="@drawable/progressbar"
+                    android:id="@+id/itemimage"
+                    android:progress="3">
+                </SeekBar>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="100dp"
+                    android:text="L"
+                    android:background="@drawable/button"
+                    android:id="@+id/left"/>
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="R"
+                    android:background="@drawable/button"
+                    android:id="@+id/right"/>
+            </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

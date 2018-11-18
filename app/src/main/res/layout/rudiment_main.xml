@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dp"
+            android:orientation="vertical">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/home"
+            android:text="Home"
+            android:background="@drawable/tapbutton"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/tapbutton"
+            android:padding="5dp"
+            android:text="ROLL"
+            android:onClick="selectFragment"
+            android:id="@+id/roll"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/tapbutton"
+            android:padding="5dp"
+            android:text="PARADIDDLE"
+            android:id="@+id/paradiddle"
+            android:onClick="selectFragment"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/tapbutton"
+            android:padding="5dp"
+            android:text="FLAM BASED"
+            android:id="@+id/flam_based"
+            android:onClick="selectFragment"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/tapbutton"
+            android:padding="5dp"
+            android:text="DRAG BASED"
+            android:id="@+id/drag_based"
+            android:onClick="selectFragment"
+            android:textStyle="italic"
+            android:textSize="12dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rpfd"/>
+        <LinearLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">Drum</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string-array name="number">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item> 10</item>
+        <item> 11</item>
+        <item> 12</item>
+        <item> 13</item>
+        <item> 14</item>
+        <item> 15</item>
+        <item> 16</item>
+        <item> 17</item>
+        <item> 18</item>
+        <item> 19</item>
+        <item> 20</item>
+        <item> 21</item>
+        <item> 22</item>
+        <item> 23</item>
+        <item> 24</item>
+        <item> 25</item>
+        <item> 26</item>
+        <item> 27</item>
+        <item> 28</item>
+        <item> 29</item>
+        <item> 30</item>
+        <item> 31</item>
+        <item> 32</item>
+        <item> 33</item>
+        <item> 34</item>
+        <item> 35</item>
+        <item> 36</item>
+        <item> 37</item>
+        <item> 38</item>
+        <item> 39</item>
+        <item> 40</item>
+    </string-array>
+
+    <string-array name="title">
+        <item> - Single stroke roll</item>
+        <item> - Single Stroke four</item>
+        <item> - Single Storke seven</item>
+        <item> - Multiple Stroke roll</item>
+        <item> - Double Stroke roll</item>
+        <item> - Triple Strok roll</item>
+        <item> - Five Stroke roll</item>
+        <item> - Six Stroke roll</item>
+        <item> - Seven Stroke roll</item>
+        <item> - Nine Stroke roll</item>
+        <item> - Ten Stoke roll</item>
+        <item> - Eleven Stroke roll</item>
+        <item> - Thirteen Storke roll</item>
+        <item> - Fifteen Stroke roll</item>
+        <item> - Seventeen Stroke roll</item>
+        <item> - Single pradiddle</item>
+        <item> - Double pradiddle</item>
+        <item> - Triple pradiddle</item>
+        <item> - Single pradiddle-diddle</item>
+        <item> - Flam</item>
+        <item> - Flam Accent</item>
+        <item> - Flam Tap</item>
+        <item> - Single Flammed Mill</item>
+        <item> - Flamacue</item>
+        <item> - Flam Pradiddle</item>
+        <item> - Flam Pradidlde-diddle</item>
+        <item> - Inverted Flam Tap</item>
+        <item> - Pataflafal</item>
+        <item> - Flam Drag</item>
+        <item> - Swiss Army Triplet</item>
+        <item> - Drag Ruff</item>
+        <item> - Single Drag Tap</item>
+        <item> - Double Drag Tap</item>
+        <item> - Single Dragadiddle</item>
+        <item> - Dragadiddle1</item>
+        <item> - Dragadiddle2</item>
+        <item> - Lesson25</item>
+        <item> - Single Retamacue</item>
+        <item> - Double Retamacue</item>
+        <item> - Triple Retamacue</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="headline">
+        <item>Roll</item>
+        <item>Pardiddle</item>
+        <item>Flam Based</item>
+        <item>Drag Based</item>
+    </string-array>
+
+    <array name="rudires">
+        <item>@drawable/rudi_singlestrokeroll</item>
+        <item>@drawable/rudi_singlestrokefour</item>
+        <item>@drawable/rudi_singlestrokeseven</item>
+        <item>@drawable/rudi_multiplebounceroll</item>
+        <item>@drawable/rudi_doublestrokeroll</item>
+        <item>@drawable/rudi_triplestrokeroll</item>
+        <item>@drawable/rudi_fivestrokeroll</item>
+        <item>@drawable/rudi_sixstrokeroll</item>
+        <item>@drawable/rudi_sevenstrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_singlestrokeroll</item>
+        <item>@drawable/rudi_singlestrokefour</item>
+        <item>@drawable/rudi_singlestrokeseven</item>
+        <item>@drawable/rudi_multiplebounceroll</item>
+        <item>@drawable/rudi_doublestrokeroll</item>
+        <item>@drawable/rudi_triplestrokeroll</item>
+        <item>@drawable/rudi_fivestrokeroll</item>
+        <item>@drawable/rudi_sixstrokeroll</item>
+        <item>@drawable/rudi_sevenstrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_singlestrokeroll</item>
+        <item>@drawable/rudi_singlestrokefour</item>
+        <item>@drawable/rudi_singlestrokeseven</item>
+        <item>@drawable/rudi_multiplebounceroll</item>
+        <item>@drawable/rudi_doublestrokeroll</item>
+        <item>@drawable/rudi_triplestrokeroll</item>
+        <item>@drawable/rudi_fivestrokeroll</item>
+        <item>@drawable/rudi_sixstrokeroll</item>
+        <item>@drawable/rudi_sevenstrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_singlestrokeroll</item>
+        <item>@drawable/rudi_singlestrokefour</item>
+        <item>@drawable/rudi_singlestrokeseven</item>
+        <item>@drawable/rudi_multiplebounceroll</item>
+        <item>@drawable/rudi_doublestrokeroll</item>
+        <item>@drawable/rudi_triplestrokeroll</item>
+        <item>@drawable/rudi_fivestrokeroll</item>
+        <item>@drawable/rudi_sixstrokeroll</item>
+        <item>@drawable/rudi_sevenstrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_singlestrokeroll</item>
+        <item>@drawable/rudi_singlestrokefour</item>
+        <item>@drawable/rudi_singlestrokeseven</item>
+        <item>@drawable/rudi_multiplebounceroll</item>
+        <item>@drawable/rudi_doublestrokeroll</item>
+        <item>@drawable/rudi_triplestrokeroll</item>
+        <item>@drawable/rudi_fivestrokeroll</item>
+        <item>@drawable/rudi_sixstrokeroll</item>
+        <item>@drawable/rudi_sevenstrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_singlestrokeroll</item>
+        <item>@drawable/rudi_singlestrokefour</item>
+        <item>@drawable/rudi_singlestrokeseven</item>
+        <item>@drawable/rudi_multiplebounceroll</item>
+        <item>@drawable/rudi_doublestrokeroll</item>
+        <item>@drawable/rudi_triplestrokeroll</item>
+        <item>@drawable/rudi_fivestrokeroll</item>
+        <item>@drawable/rudi_sixstrokeroll</item>
+        <item>@drawable/rudi_sevenstrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+        <item>@drawable/rudi_ninestrokeroll</item>
+    </array>
+
+</resources>
